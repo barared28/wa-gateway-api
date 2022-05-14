@@ -12,7 +12,7 @@ const io = new Server(server, {
     cors: {
         origin: "https://wa-gateway-client.vercel.app",
         methods: ["GET", "POST"],
-        credentials: true
+        credentials: false
     },
 });
 
