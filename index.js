@@ -12,7 +12,6 @@ const io = new Server(server, {
     cors: {
         origin: "https://wa-gateway-client.vercel.app",
         methods: ["GET", "POST"],
-        allowedHeaders: ["my-custom-header"],
         credentials: true
     },
 });
