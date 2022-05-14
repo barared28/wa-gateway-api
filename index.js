@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: "https://wa-gateway-client.vercel.app"
+        origin: "https://wa-gateway-psi.vercel.app"
     }
 });
 
