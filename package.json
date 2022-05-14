@@ -11,6 +11,9 @@
     "whatsapp-web.js": "^1.16.6"
   },
   "devDependencies": {},
+  "engines": {
+    "node": "8.9.3"
+  },
   "scripts": {
     "start": "node index.js",
     "build": "node index.js",
